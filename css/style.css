@@ -17,3 +17,10 @@ h1 {
 h5 {
     text-align: center;
 }
+
+.circular-image {
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 50%;
+}
