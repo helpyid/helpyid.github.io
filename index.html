@@ -60,7 +60,7 @@
 
 	<!-- Navigation Bar -->
 	<!-- <nav class="navbar navbar-expand-lg sticky-top" style="background-color:#ffb3b3"> -->
-	<nav class="navbar navbar-expand-lg sticky-top bg-helpy-secondary">
+	<nav class="navbar navbar-expand-lg sticky-top bg-helpy-secondary" role="navigation">
 		<div class="container">
 			<a class="navbar-brand" href="#">
 				<img src="assets/helpy3.png" alt="Logo jasa kuesioner" width="60" class="d-inline-block align-text-top">
@@ -71,7 +71,7 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-					<a class="nav-link active" aria-current="page" href="#"><b>Beranda</b></a>
+					<a class="nav-link" href="#"><b>Beranda</b></a>
 					<a class="nav-link" href="#layanan"><b>Layanan</b></a>
 					<a class="nav-link" href="#testimoni"><b>Testimoni</b></a>
 					<a class="nav-link" href="#tentang-kami"><b>Tentang Kami</b></a>
@@ -84,7 +84,7 @@
 	<div class="container">
 
 		<!-- Header -->
-		<div class="row align-items-center vh-100">
+		<div class="row align-items-start align-items-sm-center vh-100 mt-5 mt-sm-0">
 			<div class="col-md-3 text-center text-md-start">
 				<h1 class="helpy-custom-font">Jasa Kuesioner Online dan Buzzer Media Sosial</h1>
 				<p>We are ready to provide <span class="bg-helpy-variant-2">Everything You Need!</span></p>
@@ -195,6 +195,65 @@
 		</section>
 		<!-- End Jasa Layanan Section -->
 
+		<!-- Jasa Desain Section -->
+		<section>
+			<div class="card shadow border-0 p-4 mb-5">
+				<h5 class="mb-4" id="testimoni">Jasa Design</h5>
+				<ul class="nav nav-tabs mb-3" id="pills-tab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="nav-link text-helpy-primary active" id="pills-deskripsi-tab"
+							data-bs-toggle="pill" data-bs-target="#pills-deskripsi" type="button" role="tab"
+							aria-controls="pills-deskripsi" aria-selected="true">Deskripsi</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link text-helpy-primary" id="pills-ilustrasi-tab" data-bs-toggle="pill"
+							data-bs-target="#pills-ilustrasi" type="button" role="tab" aria-controls="pills-ilustrasi"
+							aria-selected="false">Contoh Ilustrasi</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="nav-link text-helpy-primary" id="pills-order-tab" data-bs-toggle="pill"
+							data-bs-target="#pills-order" type="button" role="tab" aria-controls="pills-order"
+							aria-selected="false">Order</button>
+					</li>
+				</ul>
+				<div class="tab-content text-justify" id="pills-tabContent">
+					<div class="tab-pane fade show active" id="pills-deskripsi" role="tabpanel"
+						aria-labelledby="pills-deskripsi-tab" tabindex="0">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid commodi soluta nam eveniet
+						corporis illo consectetur, molestias dolorum obcaecati neque odit sequi aut accusamus labore
+						repellendus eligendi, inventore amet quidem voluptates. Eligendi iste, soluta minus ea eum
+						necessitatibus, ipsam quos incidunt cumque veniam nemo id, exercitationem voluptates dolores
+						tempore maiores!
+					</div>
+					<div class="tab-pane fade" id="pills-ilustrasi" role="tabpanel"
+						aria-labelledby="pills-ilustrasi-tab" tabindex="0">
+						<div class="row justify-content-around align-items-center gap-2">
+							<div class="col-2">
+								<img src="/assets/Helpy1.png" class="img-fluid" alt="">
+							</div>
+							<div class="col-2">
+								<img src="/assets/Helpy2.png" class="img-fluid" alt="">
+							</div>
+							<div class="col-2">
+								<img src="/assets/Helpy3.png" class="img-fluid" alt="">
+							</div>
+							<div class="col-2">
+								<img src="/assets/Helpy1.png" class="img-fluid" alt="">
+							</div>
+							<div class="col-2">
+								<img src="/assets/Helpy2.png" class="img-fluid" alt="">
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="pills-order" role="tabpanel" aria-labelledby="pills-order-tab"
+						tabindex="0">
+						<span>Terserah Jihan mau diisi apa</span>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Jasa Desain Section -->
+
 		<!-- WhatsApp Section -->
 		<section>
 			<div class="card shadow border-0 mb-5">
@@ -216,7 +275,7 @@
 
 		<!-- Reason Seaction -->
 		<section>
-			<div class="card bg-helpy-secondary shadow border-0">
+			<div class="card bg-helpy-secondary shadow border-0 mb-5">
 				<div class="card-title text-center my-3">
 					<h2>Kenapa Harus Helpy?</h2>
 				</div>
@@ -250,191 +309,202 @@
 		</section>
 		<!-- End Reason Section -->
 
-		<div class="text-center">
-			<h2 id="testimoni">Testimoni</h2>
-		</div>
+		<!-- Testimoni Section -->
+		<section>
+			<h2 class="text-center mb-4" id="testimoni">Testimoni</h2>
 
-		<div class="d-flex justify-content-center">
-			<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<blockquote class="twitter-tweet">
-							<p lang="in" dir="ltr"><a
-									href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
-									href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><a
-									href="https://twitter.com/hashtag/Kuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#Kuesioner</a><br><br>Kriteria
-								yang dicarikan:<br>- Warga DKI Jakarta<br><br>Jumlah responden yang
-								didapat:
-								50 <a href="https://t.co/wtfqK3rBuM">pic.twitter.com/wtfqK3rBuM</a>
-							</p>
-							&mdash; Jasa Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
-								href="https://twitter.com/helpyID/status/1547957112084795392?ref_src=twsrc%5Etfw">July
-								15, 2022</a>
-						</blockquote>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-					<div class="carousel-item active">
-						<blockquote class="twitter-tweet">
-							<p lang="in" dir="ltr"><a
-									href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
-									href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>-
-								Memakai/mengetahui aplikasi Klik Indomaret<br><br>Jumlah responden
-								yang
-								didapat: 30 <a href="https://t.co/xndB4WnaIc">pic.twitter.com/xndB4WnaIc</a>
-							</p>&mdash; Jasa Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID)
-							<a href="https://twitter.com/helpyID/status/1548874160633286657?ref_src=twsrc%5Etfw">July
-								18, 2022</a>
-						</blockquote>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-					<div class="carousel-item active">
-						<blockquote class="twitter-tweet">
-							<p lang="in" dir="ltr"><a
-									href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
-									href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>Kriteria
-								yang dicarikan:<br>- Usia 15-19<br>- Suka KPOP<br>- Dom
-								Jakarta<br><br>Jumlah
-								responden yang didapat: 60 <a
-									href="https://t.co/hstG9AsoOw">pic.twitter.com/hstG9AsoOw</a>
-							</p>
-							&mdash;
-							Jasa
-							Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
-								href="https://twitter.com/helpyID/status/1535808624668590080?ref_src=twsrc%5Etfw">June
-								12, 2022</a>
-						</blockquote>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-					<div class="carousel-item">
-						<blockquote class="twitter-tweet">
-							<p lang="in" dir="ltr"><a
-									href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
-									href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>-
-								Perempuan<br>- Usia 26-41<br>- Pengguna Tokopedia dan Shopee
-								domisili
-								Jakarta<br>- Pernah melakukan pembelian impulsif<br><br>Jumlah
-								responden
-								yang didapat: 80 <a href="https://t.co/aTt4y47KIh">pic.twitter.com/aTt4y47KIh</a>
-							</p>
-							&mdash;
-							Jasa Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
-								href="https://twitter.com/helpyID/status/1544526906527059970?ref_src=twsrc%5Etfw">July
-								6, 2022</a>
-						</blockquote>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-					<div class="carousel-item">
-						<blockquote class="twitter-tweet">
-							<p lang="in" dir="ltr"><a
-									href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
-									href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>Kriteria
-								yang dicarikan<br>1. Pelajar SMA/sederajat atau alumni<br>2.
-								Menggunakan
-								Zenius
-								gratis/aktiva selama 3 bulan saat SMA<br><br>Jumlah responden yang
-								didapat:
-								103 <a href="https://t.co/e9nLOhbIpm">pic.twitter.com/e9nLOhbIpm</a>
-							</p>
-							&mdash; Jasa
-							Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
-								href="https://twitter.com/helpyID/status/1479453878395363328?ref_src=twsrc%5Etfw">January
-								7, 2022</a>
-						</blockquote>
-						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="visually-hidden">Next</span>
-				</button>
-			</div>
-		</div>
-	</div>
+			<div class="d-flex justify-content-center align-items-center mb-4">
+				<!-- Carousel -->
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+						<!-- Carousel Item 1 -->
+						<div class="carousel-item active">
+							<blockquote class="twitter-tweet">
+								<p lang="in" dir="ltr">
+									<a
+										href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a>
+									<a
+										href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a>
+									<a
+										href="https://twitter.com/hashtag/Kuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#Kuesioner</a>
+									<br>
+									<br>
+									Kriteria yang dicarikan:
+									<br>
+									- Warga DKI Jakarta
+									<br>
+									<br>
+									Jumlah responden yang didapat:
+									50
 
-	<p></p>
-	<div class="card text-black shadow" style="background-color: #ffffff">
-		<p>
-		<div class="text-center"><b>Ratusan testimoni lainnya</b></div>
-		</p>
-		<div class="text-center"><a href="https://twitter.com/i/events/1442771282735419397?s=20"><button
-					class="btn btn-outline-white text-white" style="background-color:#357899" role="button"
-					type="button"> Lihat lebih banyak</button></a>
-		</div>
-		</p>
-	</div>
+									<a href="https://t.co/wtfqK3rBuM">pic.twitter.com/wtfqK3rBuM</a>
+								</p>
+								&mdash; Jasa Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID)
+								<a href="https://twitter.com/helpyID/status/1547957112084795392?ref_src=twsrc%5Etfw">July
+									15, 2022</a>
+							</blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						<!-- End Carousel Item 1 -->
 
+						<!-- Carousel Item 2 -->
+						<div class="carousel-item active">
+							<blockquote class="twitter-tweet">
+								<p lang="in" dir="ltr"><a
+										href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
+										href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>-
+									Memakai/mengetahui aplikasi Klik Indomaret<br><br>Jumlah responden
+									yang
+									didapat: 30 <a href="https://t.co/xndB4WnaIc">pic.twitter.com/xndB4WnaIc</a>
+								</p>&mdash; Jasa Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID)
+								<a href="https://twitter.com/helpyID/status/1548874160633286657?ref_src=twsrc%5Etfw">July
+									18, 2022</a>
+							</blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						<div class="carousel-item active">
+							<blockquote class="twitter-tweet">
+								<p lang="in" dir="ltr"><a
+										href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
+										href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>Kriteria
+									yang dicarikan:<br>- Usia 15-19<br>- Suka KPOP<br>- Dom
+									Jakarta<br><br>Jumlah
+									responden yang didapat: 60 <a
+										href="https://t.co/hstG9AsoOw">pic.twitter.com/hstG9AsoOw</a>
+								</p>
+								&mdash;
+								Jasa
+								Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
+									href="https://twitter.com/helpyID/status/1535808624668590080?ref_src=twsrc%5Etfw">June
+									12, 2022</a>
+							</blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						<!-- End Carousel Item 2 -->
 
+						<!-- Carousel Item 3 -->
+						<div class="carousel-item">
+							<blockquote class="twitter-tweet">
+								<p lang="in" dir="ltr"><a
+										href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
+										href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>-
+									Perempuan<br>- Usia 26-41<br>- Pengguna Tokopedia dan Shopee
+									domisili
+									Jakarta<br>- Pernah melakukan pembelian impulsif<br><br>Jumlah
+									responden
+									yang didapat: 80 <a href="https://t.co/aTt4y47KIh">pic.twitter.com/aTt4y47KIh</a>
+								</p>
+								&mdash;
+								Jasa Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
+									href="https://twitter.com/helpyID/status/1544526906527059970?ref_src=twsrc%5Etfw">July
+									6, 2022</a>
+							</blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
 
-	<p></p>
-	<p></p>
-	<div class="text-center">
-		<h2 id="tentang-kami">Tentang Kami</h2>
-	</div>
-	<p>
-	<div class="card mb-3 shadow">
-		<div class="row g-0">
-			<div class="col-md-4">
-				<img src="assets/helpy.png" class="img-fluid rounded-start" alt="logo helpy jasa kuesioner dan buzzer">
-			</div>
-			<div class="col-md-8">
-				<div class="card-body">
-					<h5 class="card-title">Helpy ID</h5>
-					<p class="card-text">Helpy ID adalah penyedia beragam jenis jasa yang melibatkan
-						orang
-						dalam
-						jumlah besar seperti pencarian responden kuesioner, booster akun media
-						sosial di
-						Twitter,
-						Instagram, Youtube, Tiktok, dll dengan memberikan like, comment, retweet,
-						reply,
-						subscribe,
-						follow, dan lain-lain sesuai dengan kebutuhan customer. Saat ini jumlah
-						<b>Squad
-							Member
-							Helpy mencapai 500 orang </b> dari seluruh Indonesia rentang umur yang
-						beragam.
-						Helpy ID
-						selalu mengedepankan originalitas data demi kepuasan customer.
-					</p>
-					<b>Contact us:</b>
-					<p>
-					<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-						<a href="https://twitter.com/helpyid" class="btn btn-outline-dark me-md-2" type="button"><img
-								src="assets/twitter.svg" alt="logo twitter"> Twitter
-						</a>
-						<a href="https://instagram.com/helpyid" class="btn btn-outline-dark me-md-2" type="button"><img
-								src="assets/instagram.svg" alt="logo instagram">
-							Instagram</a>
-						<a href="https://wa.me/6285786410669" class="btn btn-outline-dark me-md-2" type="button"><img
-								src="assets/wabaru.png" style="height:20px" alt="logo whatsapp">
-							WhatsApp </a>
-						<a href="mailto:center.helpy@gmail.com" class="btn btn-outline-dark me-md-2" type="button"><img
-								src="assets/mail.svg" alt="logo email"> Email </a>
+						<!-- End Carousel Item 3 -->
+
+						<!-- Carousel Item 4 -->
+						<div class="carousel-item">
+							<blockquote class="twitter-tweet">
+								<p lang="in" dir="ltr"><a
+										href="https://twitter.com/hashtag/TestimoniHelpy?src=hash&amp;ref_src=twsrc%5Etfw">#TestimoniHelpy</a><a
+										href="https://twitter.com/hashtag/JasaKuesioner?src=hash&amp;ref_src=twsrc%5Etfw">#JasaKuesioner</a><br><br>Kriteria
+									yang dicarikan<br>1. Pelajar SMA/sederajat atau alumni<br>2.
+									Menggunakan
+									Zenius
+									gratis/aktiva selama 3 bulan saat SMA<br><br>Jumlah responden yang
+									didapat:
+									103 <a href="https://t.co/e9nLOhbIpm">pic.twitter.com/e9nLOhbIpm</a>
+								</p>
+								&mdash; Jasa
+								Cari Responden Kuesioner &amp; Boost Sosmed (@helpyID) <a
+									href="https://twitter.com/helpyID/status/1479453878395363328?ref_src=twsrc%5Etfw">January
+									7, 2022</a>
+							</blockquote>
+							<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+						<!-- End Carousel Item 4 -->
 					</div>
-					</p>
+					<!-- End Carousel -->
+
+					<!-- Carousel Controls -->
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+						data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+						data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</button>
+					<!-- End Carousel Controls -->
 				</div>
 			</div>
+
+			<!-- More Testimoni -->
+			<div class="card text-center shadow border-0 mb-5">
+				<span class="mt-3 mb-2 h4">Ratusan testimoni lainnya</span>
+				<a href="https://twitter.com/i/events/1442771282735419397?s=20">
+					<button class="btn btn-outline-white bg-helpy-variant-1 text-white mb-3" role="button"
+						type="button">Lihat lebih banyak</button>
+				</a>
+			</div>
+			<!-- End More Testimoni -->
+		</section>
+		<!-- End Testimoni Section -->
+
+		<!-- Start About Us Section -->
+		<section>
+			<h2 class="text-center mb-4" id="tentang-kami">Tentang Kami</h2>
+			<div class="card shadow border-0 mb-4">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-md-4">
+						<img src="assets/helpy.png" class="img-fluid" alt="logo helpy jasa kuesioner dan buzzer">
+					</div>
+					<div class="col-md-8">
+						<div class="card-body px-5">
+							<h5 class="card-title">Helpy ID</h5>
+							<p class="card-text text-justify">
+								Helpy ID adalah penyedia beragam jenis jasa yang melibatkan orang dalam jumlah besar
+								seperti pencarian responden kuesioner, booster akun media sosial di Twitter, Instagram,
+								Youtube, Tiktok, dll dengan memberikan like, comment, retweet, reply, subscribe, follow,
+								dan lain-lain sesuai dengan kebutuhan customer. Saat ini jumlah
+								<span class="fw-bolder">Squad Member Helpy mencapai 500 orang</span> dari seluruh
+								Indonesia rentang umur yang beragam. Helpy ID selalu mengedepankan originalitas data
+								demi kepuasan customer.
+							</p>
+							<div class="text-uppercase">Contact Us:</div>
+							<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+								<a href="https://twitter.com/helpyid" class="btn btn-outline-dark me-md-2"
+									type="button"><img src="assets/twitter.svg" alt="logo twitter"> Twitter</a>
+								<a href="https://instagram.com/helpyid" class="btn btn-outline-dark me-md-2"
+									type="button"><img src="assets/instagram.svg" alt="logo instagram"> Instagram</a>
+								<a href="https://wa.me/6285786410669" class="btn btn-outline-dark me-md-2"
+									type="button"><img src="assets/wabaru.png" style="height:20px" alt="logo whatsapp">
+									WhatsApp</a>
+								<a href="mailto:center.helpy@gmail.com" class="btn btn-outline-dark me-md-2"
+									type="button"><img src="assets/mail.svg" alt="logo email"> Email</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End About Us Section -->
+
+		<!-- Copyright -->
+		<div class="text-center mb-3">
+			<span>© 2022 Helpy.ID <small class="text-muted">All Rights Reserved</small></span>
 		</div>
-	</div>
-	</p>
-	<div class="text-center">
-		<p>© 2022 Helpy.ID
-			<small class="text-muted">All Rights Reserved</small>
-		</p>
-	</div>
+		<!-- End Copyright -->
 	</div>
 
 	<script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>

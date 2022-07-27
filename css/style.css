@@ -33,13 +33,27 @@ body {
     background-color: #3da48e !important;
 }
 
-.text-justify {
-    text-align: justify;
+/* Helpy Text Color */
+.text-helpy-primary {
+    color: #ff7f7b !important;
 }
 
-.wafixed {
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    z-index: 999;
+.text-helpy-secondary {
+    color: #ffb3b3 !important;
+}
+
+.text-helpy-variant-1 {
+    color: #35799a !important;
+}
+
+.text-helpy-variant-2 {
+    color: #f5c013 !important;
+}
+
+.text-helpy-variant-3 {
+    color: #3da48e !important;
+}
+
+.text-justify {
+    text-align: justify;
 }
