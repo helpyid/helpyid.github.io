@@ -2,26 +2,40 @@
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDGothic:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
 
+/* Helpy Font */
 body {
     font-family: 'Nunito', sans-serif;
 }
 
-h1 {
+.helpy-custom-font {
     font-family: 'BIZ UDGothic', sans-serif;
 
 }
 
+/* Helpy Background Color */
+.bg-helpy-primary {
+    background-color: #ff7f7b;
+}
+
+.bg-helpy-secondary {
+    background-color: #ffb3b3;
+}
+
+.bg-helpy-variant-1 {
+    background-color: #35799a;
+}
+
+.bg-helpy-variant-2 {
+    background-color: #f5c013;
+}
+
+.bg-helpy-variant-3 {
+    background-color: #3da48e;
+}
+
+
 .card-text {
     text-align: justify;
-}
-
-h4 {
-    text-align: center;
-    font-family: 'Nunito', sans-serif;
-}
-
-h5 {
-    text
 }
 
 .wafixed {
