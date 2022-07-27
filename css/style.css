@@ -14,23 +14,23 @@ body {
 
 /* Helpy Background Color */
 .bg-helpy-primary {
-    background-color: #ff7f7b;
+    background-color: #ff7f7b !important;
 }
 
 .bg-helpy-secondary {
-    background-color: #ffb3b3;
+    background-color: #ffb3b3 !important;
 }
 
 .bg-helpy-variant-1 {
-    background-color: #35799a;
+    background-color: #35799a !important;
 }
 
 .bg-helpy-variant-2 {
-    background-color: #f5c013;
+    background-color: #f5c013 !important;
 }
 
 .bg-helpy-variant-3 {
-    background-color: #3da48e;
+    background-color: #3da48e !important;
 }
 
 
