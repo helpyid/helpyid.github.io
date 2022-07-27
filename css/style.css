@@ -33,8 +33,7 @@ body {
     background-color: #3da48e !important;
 }
 
-
-.card-text {
+.text-justify {
     text-align: justify;
 }
 
@@ -43,8 +42,4 @@ body {
     right: 30px;
     bottom: 30px;
     z-index: 999;
-}
-
-.accordion {
-    background-color: #ffb3b3;
 }
