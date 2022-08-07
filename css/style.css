@@ -57,3 +57,28 @@ body {
 .text-justify {
     text-align: justify;
 }
+
+.floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.floating-button-item {
+    background-color: #ffb3b3;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.floating-button-item:hover {
+    background-color: #3da48e;
+}
+
+.floating-button-item .text-floating {
+    display: none;
+}
+
+.floating-button-item:hover .text-floating {
+    display: block;
+}
