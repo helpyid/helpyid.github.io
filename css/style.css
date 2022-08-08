@@ -66,8 +66,8 @@ body {
 }
 
 .floating-button-item {
-    background-color: #ffb3b3;
-    font-size: 18px;
+    background-color: #ff7f7b;
+    font-size: 20px;
     font-weight: 900;
 }
 
@@ -77,6 +77,9 @@ body {
 
 .floating-button-item .text-floating {
     display: none;
+    padding-right: 5px;
+    padding-left: 2px;
+    padding-top: 2px;
 }
 
 .floating-button-item:hover .text-floating {
