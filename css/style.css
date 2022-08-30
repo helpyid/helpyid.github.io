@@ -104,7 +104,7 @@ body {
     color: #000000;
 }
 
-.btn-wa {
+.button-wa {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -113,10 +113,35 @@ body {
     height: 40px;
     width: 200px;
     margin-bottom: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.button-testi {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #3da48e;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button-testi:hover {
+    color: #000000;
+}
+
+.button-wa:hover {
+    background-color: #ff7f7b;
+    color: #000000;
 }
 
 .btn:hover {
     background-color: #ff7f7b;
+    color: #ffffff;
 }
 
 .socmed-button {
