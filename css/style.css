@@ -95,9 +95,28 @@ body {
     color: #000000;
 }
 
-.btn:hover {
+.btn {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
     background-color: #ffb3b3;
     color: #000000;
+}
+
+.btn-wa {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb3b3;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #ff7f7b;
 }
 
 .socmed-button {
@@ -106,4 +125,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.card-body {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-top: 20px;
 }
