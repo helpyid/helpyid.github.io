@@ -95,7 +95,7 @@ body {
     color: #000000;
 }
 
-.btn {
+.btn-pink {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -139,7 +139,7 @@ body {
     color: #000000;
 }
 
-.btn:hover {
+.btn-pink:hover {
     background-color: #ff7f7b;
     color: #ffffff;
 }
@@ -158,4 +158,8 @@ body {
 
 .card-title {
     margin-top: 20px;
+}
+
+.btn2 {
+    background-color: #ff7f7b;
 }
