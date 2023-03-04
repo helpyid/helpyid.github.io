@@ -163,3 +163,8 @@ body {
 .btn2 {
     background-color: #ff7f7b;
 }
+
+.card-maskot {
+    width: 250px;
+    align-self: center;
+}
