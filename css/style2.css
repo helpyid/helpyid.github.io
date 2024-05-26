@@ -1,0 +1,269 @@
+
+body {
+    font-family: 'Poppins', serif;
+  }
+  .navbar {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1px;
+  }
+  .navbar-brand img {
+    height: 30px;
+  }
+  .slider {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  .service, .testimonial, .contact {
+    padding: 25px 0;
+  }
+  /* 
+  pink #ff7f7e
+  biru: #34799a
+  kuning: #f6c016
+  hijau #3ea48e
+  */
+  .contact {
+    background-color: #ff7f7e;
+    color: white;
+  }
+  .contact .btn {
+    background-color: #007bff;
+    color: white;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-control-next, .carousel-control-prev, .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover{
+    color: #333;
+  }
+  .carousel{
+    /* background-color: #ff7f7e; */
+    background-color: #ffffff;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    color: #363636;
+    margin-top: 0px;
+  }
+
+  .helpy-section-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+  }
+  .helpy-section-subtitle{
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  .care-img{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("/assets/care.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 500px;
+  }
+  .helpy-header {
+    padding:40px 25px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url("/assets/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+  .helpy-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+  /* .helpy-twitter-card {
+    padding: 0px 40px;
+  } */
+  .carousel-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    width: 600px;
+  }
+  .carousel-subtitle{
+    font-size: 16px;
+    color: #fff;
+    width: 600px;
+  }
+
+  .splide__slide {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .splide__pagination__page.is-active{
+    background-color: #ff7f7e;
+  }
+  
+  @media (max-width: 1200px) {
+    /* Gaya khusus untuk tampilan pada perangkat mobile */
+    .carousel-title{
+        font-size: 32px;
+    }
+    .carousel-subtitle{
+        font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    /* Gaya khusus untuk tampilan pada perangkat mobile */
+    /* .carousel-title{
+        font-size: 22px;
+        max-width: 100%;
+    }
+    .carousel-subtitle{
+        font-size: 11px;
+        max-width: 100%;
+    } */
+  }
+
+  .carousel-item>.container{
+    padding: 0px 100px;
+  }
+  /* Override Bootstrap button border-radius */
+  .btn {
+    border-radius: 0 !important;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 12px;
+  }
+  .btn-primary {
+    background-color: #ff7f7e;
+    border-color: #ff7f7e;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active,
+  .btn-primary.focus,
+  .btn-primary:active:focus,
+  .btn-primary:active:hover,
+  .btn-primary.active:hover,
+  .btn-primary.focus:hover,
+  .btn-primary.focus:focus {
+    background-color: #c76464;
+    border-color: #c76464;
+    outline: none;
+    box-shadow: none; /* Menonaktifkan shadow */
+  }
+
+  .btn-primary:focus {
+    outline: none;
+    box-shadow: none; /* Menonaktifkan shadow */
+  }
+
+  .btn-primary:disabled,
+  .btn-primary.disabled {
+    background-color: #ff7f7e;
+    border-color: #ff7f7e;
+    outline: none;
+  }
+
+  .btn-primary:active {
+    background-color: #cc6666; /* Warna lebih gelap saat ditekan */
+    transform: scale(0.98); /* Mengurangi ukuran sedikit untuk efek klik */
+    border-color: #cc6666;
+  }
+
+  .helpy-highlight-text{
+    color: #ff7f7e;
+  }
+
+  .helpy-highlight-text-black{
+    color: #333;
+  }
+
+  .helpy-card>.card-body>.card-text{
+    font-size: 12px;
+  }
+
+  .helpy-card>.card-body>.card-text, .helpy-card>.card-body>.card-title{
+    margin-top: 10px;
+  }
+
+
+  .service-card {
+    margin-bottom: 20px;
+    padding: 20px 0px;
+  }
+  .service-card img {
+    width: 100px; /* Atur lebar gambar sesuai kebutuhan */
+    height: 100px; /* Atur tinggi gambar sesuai kebutuhan */
+    margin: auto; /* Pusatkan gambar secara horizontal */
+    display: block;
+    border-radius: 50%;
+  }
+  
+
+  .floating-section {
+    width: 100%;
+    /* background-color: #ff7f7e; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 25px 0px;
+    margin-top: 0px;
+}
+
+.floating-section .contact-text {
+    font-size: 22px;
+    color: #333;
+}
+
+.floating-section .whatsapp-icon {
+    font-size: 24px;
+    color: #25d366;
+    text-decoration: none;
+}
+
+.whatsapp-icon:hover {
+    color: #1ebc56;
+}
+
+
+footer {
+    background-color: #ffffff;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ff7f7e;
+}
+
+.splide__pagination{
+    bottom: -15px;
+}
